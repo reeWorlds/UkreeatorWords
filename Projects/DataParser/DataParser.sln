@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UkrLocations2Parser", "UkrL
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UkrNames3Convertor", "UkrNames3Convertor\UkrNames3Convertor.pyproj", "{ADF99EF3-B7ED-474D-BCD5-6BBC1A4B31C3}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FinalDataFix", "FinalDataFix\FinalDataFix.pyproj", "{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,12 @@ Global
 		{ADF99EF3-B7ED-474D-BCD5-6BBC1A4B31C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF99EF3-B7ED-474D-BCD5-6BBC1A4B31C3}.Release|x64.ActiveCfg = Release|Any CPU
 		{ADF99EF3-B7ED-474D-BCD5-6BBC1A4B31C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Release|x64.ActiveCfg = Release|Any CPU
+		{F571FAD0-A6A2-4840-9BB0-F6F59761BD54}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
