@@ -5,7 +5,6 @@ import xml.etree.ElementTree as ET
 import re
 
 tree = ET.parse('../../../data/original/26-ex_xml_atu.xml')
-root = tree.getroot()
 
 def find_all_tags():
 	def collect_all_tags():
@@ -17,17 +16,12 @@ def find_all_tags():
 		tags = set()
 		get_all_tags(root, tags)
 
-		with open("tags.txt", "w") as f:
-			for tag in tags:
-				f.write(tag + '\n')
-
 		return tags
 
-	# tags = collect_all_tags()
-	tags = set()
-	with open("tags.txt", "r") as f:
-		for line in f:
-			tags.add(line.strip())
+	tags = collect_all_tags()
+	with open("tags.txt", "w") as f:
+		for tag in tags:
+			f.write(tag + '\n')
 
 
 def get_all_elements_with_tag(tag):
