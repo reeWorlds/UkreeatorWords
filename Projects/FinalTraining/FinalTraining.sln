@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Pretraining", "Pretraining\Pretraining.pyproj", "{5FC6A778-3153-4495-8EC8-CDFE1F582915}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Finetuning", "Finetuning\Finetuning.pyproj", "{FF5F5559-6822-4D4C-A3B1-FC2A133F4A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5FC6A778-3153-4495-8EC8-CDFE1F582915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FC6A778-3153-4495-8EC8-CDFE1F582915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5F5559-6822-4D4C-A3B1-FC2A133F4A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5F5559-6822-4D4C-A3B1-FC2A133F4A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

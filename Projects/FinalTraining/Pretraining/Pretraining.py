@@ -219,7 +219,7 @@ def pretrainModel(pathOut, n_embd, l1_n, l2_n, l3_n, l4_n, head_n, leaky_relu_a)
 
 
 if __name__ == "__main__":
-	#pretrainModel("../../../models/pretrained/small.pth", 2, 4, 8, 8, 12, 12, 0.05)
+	#pretrainModel("../../../models/pretrained/tiny.pth", 2, 4, 8, 8, 12, 12, 0.05)
 	#pretrainModel("../../../models/pretrained/normal.pth", 16, 16, 24, 32, 48, 64, 0.05)
 	#pretrainModel("../../../models/pretrained/extra.pth", 32, 48, 80, 96, 128, 128, 0.05)
 
