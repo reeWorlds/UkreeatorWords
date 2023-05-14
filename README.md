@@ -25,6 +25,7 @@ Negative Log-Likelihood of different models on respective datasets
 | words      | 2.421 | 2.087  | 1.848 |
 
 
+Architecture of the model (how token 'у' generated for prefix "гесста")
 ![Architecture of the model](readme_extra_resources/model.png)
 
 If you have your own dataset for fine-tuning pretrained model, you may find useful [this](./Projects/FinalTraining/Finetuning/).
