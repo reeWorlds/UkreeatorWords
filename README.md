@@ -1,6 +1,7 @@
 # UkreeatorWords
 
 Ukreeator is tool for generation of new words and names for people and locations in Ukraininan.
+Ukreeator works based on char-level generative neural networks.
 
 Для україномовного варіанту README.md тицяйте [сюди](./readme_extra_resources/README.md).
 
