@@ -1,11 +1,11 @@
 # UkreeatorWords
 
-Ukreeator is tool for generation of new words and names for people and locations in Ukraininan.
+Ukreeator is tool for generation of new words and names for people and locations in Ukrainian.
 Ukreeator works based on char-level generative neural networks.
 
 Для україномовного варіанту README.md тицяйте [сюди](./readme_extra_resources/README.md).
 
-Import .py file and expample of usage available [here](./Projects/Ukreeator/)
+Import .py file and example of usage available [here](./Projects/Ukreeator/)
 
 There are 4 categories of models: [pretrained](./models/pretrained/) on whole dataset, fine-tuned for [names](./models/names/) generation, fine-tined for [locations](./models/locations/) generation, and fine-tuned for general [Ukrainian words](./models/words/) generation. For each category, there are 3 trained models: tiny (1,375 params), normal (15,581 params), and extra (90,853 params).
 
@@ -26,7 +26,7 @@ Negative Log-Likelihood of different models on respective datasets
 | words      | 2.421 | 2.087  | 1.848 |
 
 
-Architecture of the model (how token 'у' generated for prefix "гесста")
+The architecture of the model (how token 'у' generated for prefix "гесста")
 ![Architecture of the model](readme_extra_resources/model.png)
 
 If you have your own dataset for fine-tuning pretrained model, you may find useful [this](./Projects/FinalTraining/Finetuning/).
